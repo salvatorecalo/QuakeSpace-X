@@ -32,9 +32,8 @@ cd QuakeSpace-X
 To use this algorythm you need to pass a csv file to the programme (you can edit it in the readdata.m, var namefile). 
 
 Main functions:
-- readdata.m: read the file
-- spectro.m
-- computePS.m
+- computePS.m: function that given the earthquake data computes the total spectral power of the signal at the different time of the day
+  
 
 ## Data sources
 - Input data sources: https://wufs.wustl.edu/SpaceApps/data/space_apps_2024_seismic_detection.zip
